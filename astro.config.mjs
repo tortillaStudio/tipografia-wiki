@@ -4,14 +4,26 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://tipografia.wiki",
+  output: "static",
   integrations: [
     starlight({
       title: "Tipografia.wiki",
+      defaultLocale: "root",
+      locales: {
+        root: {
+          label: "Español",
+          lang: "es",
+        },
+      },
+      editLink: {
+        baseUrl: "https://github.com/tortillaStudio/tipografia-wiki/edit/main/",
+      },
       social: [
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          href: "https://github.com/tortillaStudio/tipografia-wiki",
         },
       ],
       sidebar: [
