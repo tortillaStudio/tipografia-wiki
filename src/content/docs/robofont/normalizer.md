@@ -13,7 +13,7 @@ Ejemplos de los ajustes aplicados por `ufoNormalizer`:
 
 - Cambiar números de punto flotante a enteros cuando no altera el valor (ej. `x="95.0"` se convierte en `x="95"`).
 - Redondear números de punto flotante a 10 dígitos.
-- Formatear el XML con pestañas (tabs) en lugar de espacios.
+- Formatear el XML con tabs en lugar de espacios.
 
 ---
 
