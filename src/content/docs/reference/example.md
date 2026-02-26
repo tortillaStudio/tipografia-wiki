@@ -1,6 +1,9 @@
 ---
 title: Example Reference
 description: A reference page in my new Starlight docs site.
+sidebar:
+  # Uses the default variant matching your site’s accent color
+  badge: New
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.
