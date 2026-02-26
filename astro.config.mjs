@@ -25,6 +25,16 @@ export default defineConfig({
           label: "GitHub",
           href: "https://github.com/tortillaStudio/tipografia-wiki",
         },
+        {
+          icon: "instagram",
+          label: "Instagram",
+          href: "https://www.instagram.com/tortilla.studio/",
+        },
+        {
+          icon: "external",
+          label: "Website",
+          href: "https://tortilla.studio/",
+        },
       ],
       sidebar: [
         {
@@ -43,6 +53,9 @@ export default defineConfig({
           autogenerate: { directory: "robofont" },
         },
       ],
+      expressiveCode: {
+        themes: ['night-owl', 'github-light'],
+      },
     }),
   ],
 });
