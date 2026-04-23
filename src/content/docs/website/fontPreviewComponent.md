@@ -544,7 +544,7 @@ El componente usa Intersection Observer para modo "lazy":
 - **Componente:** `src/components/FontPreview.astro`
 - **Lógica:** `src/utils/FontPreview.ts`
 - **Estilos:** `src/styles/components/font-preview.css`
-- **Dependencias:** `opentype.js` (incluido en `/public/js/opentype.min.js`)
+- **Dependencias:** `opentype.js` (importado como módulo en `FontPreview.ts`)
 
 ### Soportes de Navegador
 
