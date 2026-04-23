@@ -52,9 +52,13 @@ export default defineConfig({
           label: "Robofont",
           autogenerate: { directory: "robofont" },
         },
+        {
+          label: "Website",
+          autogenerate: { directory: "website" },
+        },
       ],
       expressiveCode: {
-        themes: ['night-owl', 'github-light'],
+        themes: ["night-owl", "github-light"],
       },
     }),
   ],
